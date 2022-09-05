@@ -1,0 +1,744 @@
+[
+{
+  "model": "ticketing.organization",
+  "pk": "0c759f35-017f-478e-9743-c80f15375a7f",
+  "fields": {
+    "create_date": "2022-05-23T14:50:21.482Z",
+    "last_update_date": "2022-05-23T14:50:21.482Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "Thuishaven",
+    "user": "c61257a4-624b-49fe-8c72-9079c1279126",
+    "description": "Thuishaven is not a club, or a warehouse. It’s a unique experience. Located on the Western outskirts of Amsterdam, the site is surrounded by heavy industry, massive oil tankers and scrap metal yards. Thuishaven has several stages, bars, surreal decoration pieces and curiosities. Incorporating materials purchased or found at neighboring scrap yards, the site radiates a raw and industrial atmosphere",
+    "image": "event_organizer.png",
+    "url": "https://thuishaven.nl/"
+  }
+},
+{
+  "model": "ticketing.location",
+  "pk": "1ab21f16-0d5f-40a5-8430-e7bc403bf6a0",
+  "fields": {
+    "create_date": "2022-05-23T14:50:21.482Z",
+    "last_update_date": "2022-05-23T14:50:21.482Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "Thuishaven Festivalterrein",
+    "description": "",
+    "type": "hall",
+    "country_id": "8db75aef-9bbc-4547-a273-5394c6395363",
+    "region_id": "8f03dd47-31b4-4ac5-a171-c9a7894d4601",
+    "sub_region_id": "9c4d3c7b-2930-4a58-bd43-0e9da067f87d",
+    "city_id": "86944b64-f0ef-4b83-8614-f9afe28c4d56",
+    "address": "Thuishaven Festivalterrein",
+    "lon": 11.111,
+    "lat": 11.111,
+    "user_id": "c61257a4-624b-49fe-8c72-9079c1279126",
+    "hall_map": ""
+  }
+},
+{
+  "model": "ticketing.location",
+  "pk": "8f73fd55-ac9c-4011-87ef-074b13709d43",
+  "fields": {
+    "create_date": "2022-05-23T14:50:21.482Z",
+    "last_update_date": "2022-05-23T14:50:21.482Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "Doroosje Sleeping Beauty",
+    "description": "",
+    "type": "hall",
+    "country_id": "8db75aef-9bbc-4547-a273-5394c6395363",
+    "region_id": "6c307f6a-bebe-4bf3-9af9-5ae6c20c1ad8",
+    "sub_region_id": "8760258f-b68b-40c3-aca8-5cdf08a05852",
+    "city_id": "d824d8f7-300f-455e-b755-034807919b11",
+    "address": "Kaatsheuvel",
+    "lon": 11.111,
+    "lat": 11.111,
+    "user_id": "c61257a4-624b-49fe-8c72-9079c1279126",
+    "hall_map": ""
+  }
+},
+{
+  "model": "ticketing.location",
+  "pk": "9c65122d-7392-404f-bf53-7e3a8144afef",
+  "fields": {
+    "create_date": "2022-05-23T14:51:11.798Z",
+    "last_update_date": "2022-05-23T14:51:25.171Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "Classic Hall",
+    "description": "",
+    "type": "hall",
+    "country_id": "8db75aef-9bbc-4547-a273-5394c6395363",
+    "region_id": "b1c410d4-1925-4c87-afa7-a089e34e8f92",
+    "sub_region_id": "818d4f8e-91aa-4229-81e1-01e44159da6d",
+    "city_id": "267be3a1-d6b1-4f8c-b5fc-da90ab7bcffc",
+    "address": "For classics only",
+    "lon": 22.222,
+    "lat": 33.333,
+    "user_id": "c61257a4-624b-49fe-8c72-9079c1279126",
+    "hall_map": ""
+  }
+},
+{
+  "model": "ticketing.location",
+  "pk": "c0854ac7-bacb-49d0-9eef-8d0e07222346",
+  "fields": {
+    "create_date": "2022-05-23T14:52:18.349Z",
+    "last_update_date": "2022-05-23T14:52:18.349Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "Woodstock Bloemendaal",
+    "description": "A place unlike any other. Part happening beach/nightclub, part live stage for aspiring and established artists, mixed with the comforts of your living room and a laid-back atmosphere",
+    "type": "hall",
+    "country_id": "8db75aef-9bbc-4547-a273-5394c6395363",
+    "region_id": "8f03dd47-31b4-4ac5-a171-c9a7894d4601",
+    "sub_region_id": "3eff1e01-8326-4edc-9216-116478dff523",
+    "city_id": "01fc1057-3fa4-4ddb-b757-024a26a1d3be",
+    "address": "Woodstock'69 is a beachclub/village",
+    "lon": 33.333,
+    "lat": 33.333,
+    "user_id": "c61257a4-624b-49fe-8c72-9079c1279126",
+    "hall_map": ""
+  }
+},
+{
+  "model": "ticketing.location",
+  "pk": "c0854ac7-bacb-49d0-9eef-7e3a8144afef",
+  "fields": {
+    "create_date": "2022-05-23T14:52:18.349Z",
+    "last_update_date": "2022-05-23T14:52:18.349Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "013 Stage",
+    "description": "Kijk voor reizen met OV, een routebeschrijving en parkeren op www.013.nl/info-013.",
+    "type": "hall",
+    "country_id": "8db75aef-9bbc-4547-a273-5394c6395363",
+    "region_id": "6c307f6a-bebe-4bf3-9af9-5ae6c20c1ad8",
+    "sub_region_id": "8760258f-b68b-40c3-aca8-5cdf08a05852",
+    "city_id": "d824d8f7-300f-455e-b755-034807919b11",
+    "address": "Veemarktstraat 44, 5038 CV",
+    "lon": 33.333,
+    "lat": 33.333,
+    "user_id": "c61257a4-624b-49fe-8c72-9079c1279126",
+    "hall_map": ""
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "0cb149cd-fc70-4660-a363-de812b47e205",
+  "fields": {
+    "create_date": "2022-06-06T18:45:04.905Z",
+    "last_update_date": "2022-06-06T18:45:04.905Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "FSTWD-0001",
+    "state": "second_sale",
+    "event_id": "7420f68b-3c5b-4c4b-b117-7efc3a50abe0",
+    "user_id": "a4e7374f-10f6-44b5-9ee9-a1439a4df44e",
+    "init_price": 120.0,
+    "current_price": 180.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-01T00:00:00Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "1d7540ff-1982-40ab-ba98-c774d963d7f1",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:21.907Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "FSTWD-0002",
+    "state": "sold",
+    "event_id": "7420f68b-3c5b-4c4b-b117-7efc3a50abe0",
+    "user_id": "a4e7144f-10f6-44b5-9ee9-a7159a4df44e",
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-01T00:00:00Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "4a35d301-f672-42d9-b008-65160365fa62",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:21.913Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "FSTWD-0003",
+    "state": "init_sale",
+    "event_id": "7420f68b-3c5b-4c4b-b117-7efc3a50abe0",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-01T00:00:00Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "57c08bc1-83c5-435b-b21d-52e72ca69dea",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T14:59:15.038Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "PRSH-0001",
+    "state": "second_sale",
+    "event_id": "00fd3084-3929-4b06-8536-10bd5c79d241",
+    "user_id": "a4e7144f-10f6-44b5-9ee9-a7159a4df44e",
+    "init_price": 200.0,
+    "current_price": 350.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-23T14:54:04Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "5ac15c4e-5fbe-4ce6-af5e-0b2cdb331b26",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T14:59:15.038Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "PRSH-0002",
+    "state": "sold",
+    "event_id": "00fd3084-3929-4b06-8536-10bd5c79d241",
+    "user_id": "a4e7144f-10f6-44b5-9ee9-a7159a4df44e",
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-23T14:54:04Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "78abd265-2499-4eda-a83c-784fdd0e1744",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:46.402Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "TEMT-0001",
+    "state": "init_sale",
+    "event_id": "2143e198-a1f5-455e-a87f-7f54298496c5",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-04T14:47:49Z",
+    "expire_date": "2022-06-30T14:55:32Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "7ad6d188-7877-4dac-9883-88a5c06e215f",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:21.919Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "FSTWD-0004",
+    "state": "init_sale",
+    "event_id": "7420f68b-3c5b-4c4b-b117-7efc3a50abe0",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-01T00:00:00Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "8a5aa470-00f5-42e8-bf43-157f40a135a4",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:46.407Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "TEMT-0002",
+    "state": "init_sale",
+    "event_id": "2143e198-a1f5-455e-a87f-7f54298496c5",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-04T14:47:49Z",
+    "expire_date": "2022-06-30T14:55:32Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "9ce04771-3dff-4205-9fbc-4caebd9f395e",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:46.413Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "TEMT-0003",
+    "state": "init_sale",
+    "event_id": "2143e198-a1f5-455e-a87f-7f54298496c5",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-04T14:47:49Z",
+    "expire_date": "2022-06-30T14:55:32Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "a1453dcd-7b92-4f61-b97a-30b041b366c8",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T14:59:15.038Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "PRSH-0003",
+    "state": "sold",
+    "event_id": "00fd3084-3929-4b06-8536-10bd5c79d241",
+    "user_id": "a4e7374f-10f6-44b5-9ee9-a1439a4df44e",
+    "init_price": 200.0,
+    "current_price": 230.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-23T14:54:04Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "a1453dcd-7b92-4f61-b97a-30b090b366c8",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T14:59:15.038Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "PRSH-0004",
+    "state": "init_sale",
+    "event_id": "00fd3084-3929-4b06-8536-10bd5c79d241",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-23T14:54:04Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "a7f471ec-5412-4ba0-9e47-6b64d268ae2c",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:46.418Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "TEMT-0004",
+    "state": "init_sale",
+    "event_id": "2143e198-a1f5-455e-a87f-7f54298496c5",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-04T14:47:49Z",
+    "expire_date": "2022-06-30T14:55:32Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "b3df4eb7-e14a-47fb-a955-deb4b573f5f2",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T14:59:15.038Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "PRSH-0005",
+    "state": "init_sale",
+    "event_id": "00fd3084-3929-4b06-8536-10bd5c79d241",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-23T14:54:04Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "be8ce4ff-03bb-4bcb-b91b-ece39fc30a46",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:21.924Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "FSTWD-0005",
+    "state": "init_sale",
+    "event_id": "7420f68b-3c5b-4c4b-b117-7efc3a50abe0",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-01T00:00:00Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "c73e0305-e881-46a0-91df-4dded0afd9bf",
+  "fields": {
+    "create_date": "2022-06-06T18:44:39.231Z",
+    "last_update_date": "2022-06-06T18:44:39.231Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "FSTWD-0006",
+    "state": "init_sale",
+    "event_id": "7420f68b-3c5b-4c4b-b117-7efc3a50abe0",
+    "user_id": null,
+    "init_price": 100.0,
+    "current_price": 100.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-01T00:00:00Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "d7b2b642-510e-4801-a375-8e1de1c7d4a7",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:21.930Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "FSTWD-0007",
+    "state": "init_sale",
+    "event_id": "7420f68b-3c5b-4c4b-b117-7efc3a50abe0",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-01T14:47:49Z",
+    "expire_date": "2022-06-01T00:00:00Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "f4697b23-bbe3-4a6a-b419-1f3536815f1d",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:46.426Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "TEMT-0005",
+    "state": "init_sale",
+    "event_id": "2143e198-a1f5-455e-a87f-7f54298496c5",
+    "user_id": null,
+    "init_price": 200.0,
+    "current_price": 200.0,
+    "selling_date": "2022-04-04T14:47:49Z",
+    "expire_date": "2022-06-30T14:55:32Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "a36d05c6-1418-445a-9873-af5c790b4d32",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:46.426Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "THSH-0001",
+    "state": "init_sale",
+    "event_id": "86b6c659-cb36-4820-a579-fc1bb7b9faa0",
+    "user_id": null,
+    "init_price": 25.0,
+    "current_price": 25.0,
+    "selling_date": "2022-04-04T14:47:49Z",
+    "expire_date": "2022-06-30T14:55:32Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "ac0dbeef-3dd1-4c15-974e-15d0552ab0eb",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:46.426Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "THSH-0002",
+    "state": "init_sale",
+    "event_id": "86b6c659-cb36-4820-a579-fc1bb7b9faa0",
+    "user_id": null,
+    "init_price": 25.0,
+    "current_price": 25.0,
+    "selling_date": "2022-04-04T14:47:49Z",
+    "expire_date": "2022-06-30T14:55:32Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "4c006301-9e6c-4cce-b743-aed174b3ff39",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:46.426Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "THSH-0003",
+    "state": "init_sale",
+    "event_id": "86b6c659-cb36-4820-a579-fc1bb7b9faa0",
+    "user_id": null,
+    "init_price": 18.0,
+    "current_price": 18.0,
+    "selling_date": "2022-04-04T14:47:49Z",
+    "expire_date": "2022-06-30T14:55:32Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "d3c5ef5f-53c9-4c24-9641-ae6c5c98e461",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:46.426Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "THSH-0004",
+    "state": "second_sale",
+    "event_id": "86b6c659-cb36-4820-a579-fc1bb7b9faa0",
+    "user_id": null,
+    "init_price": 18.0,
+    "current_price": 30.0,
+    "selling_date": "2022-04-04T14:47:49Z",
+    "expire_date": "2022-06-30T14:55:32Z"
+  }
+},
+{
+  "model": "ticketing.ticket",
+  "pk": "92478be2-be30-422c-91a3-3a62f5bfe502",
+  "fields": {
+    "create_date": "2022-05-23T14:59:15.038Z",
+    "last_update_date": "2022-05-23T21:15:46.426Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "THSH-0005",
+    "state": "init_sale",
+    "event_id": "86b6c659-cb36-4820-a579-fc1bb7b9faa0",
+    "user_id": null,
+    "init_price": 18.0,
+    "current_price": 25.0,
+    "selling_date": "2022-04-04T14:47:49Z",
+    "expire_date": "2022-06-30T14:55:32Z"
+  }
+},
+{
+  "model": "ticketing.event",
+  "pk": "00fd3084-3929-4b06-8536-10bd5c79d241",
+  "fields": {
+    "create_date": "2022-05-23T14:54:26.845Z",
+    "last_update_date": "2022-05-23T14:58:38.369Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "Planet Rose| Shlømo + Hadone et al",
+    "organization": "0c759f35-017f-478e-9743-c80f15375a7f",
+    "state": "init_sale",
+    "description": "We kick off the Four Days in Sleeping Beauty, where we have programmed all rooms full. A solid start with a French get-together: in the Red Hall, the French Shlømo, resident of Posession, owner of Taapion Records, and together with Hadone, the flaming duo Viper Diva, will take care of things. Let Hadone still be there. Label owner and in recent years have also made significant steps in the techno scene with its recognizable melancholic productions.",
+    "image": "planet_rose_image.png",
+    "url": "https://www.doornroosje.nl/event/planet-rose-6/",
+    "is_resellable": true,
+    "tickets_creation_type": "beforehande",
+    "maximum_tickets_numbers": 1000,
+    "location_id": "8f73fd55-ac9c-4011-87ef-074b13709d43",
+    "event_date": "2022-07-16T12:00:04Z",
+    "start_date": "2022-05-16T14:00:49Z",
+    "end_date": "2022-07-15T00:00:04Z",
+    "is_sold_out": false,
+    "already_booked_num": 540
+  }
+},
+{
+  "model": "ticketing.event",
+  "pk": "86b6c659-cb36-4820-a579-fc1bb7b9faa0",
+  "fields": {
+    "create_date": "2022-05-23T14:54:26.845Z",
+    "last_update_date": "2022-05-23T14:58:38.369Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "THUISHAVEN",
+    "organization": "0c759f35-017f-478e-9743-c80f15375a7f",
+    "state": "init_sale",
+    "description": "LINE-UP Day Show :\nEnzo Siragusa\nBushwacka\nEasttown\nFabe\nJesse Maas\nTensen\nTristan da Cunha\nWouter S\n\n\nLINE-UP Night Show :\nBushwacka\nMichel de Hey\nLuna Ludmila",
+    "image": "thuishaven_image.jpg",
+    "url": "https://thuishaven.nl",
+    "is_resellable": true,
+    "tickets_creation_type": "beforehande",
+    "maximum_tickets_numbers": 1000,
+    "location_id": "1ab21f16-0d5f-40a5-8430-e7bc403bf6a0",
+    "event_date": "2022-07-23T12:00:04Z",
+    "start_date": "2022-07-01T14:00:49Z",
+    "end_date": "2022-07-23T00:00:04Z",
+    "is_sold_out": false,
+    "already_booked_num": 540
+  }
+},
+{
+  "model": "ticketing.event",
+  "pk": "2143e198-a1f5-455e-a87f-7f54298496c5",
+  "fields": {
+    "create_date": "2022-05-23T14:55:41.285Z",
+    "last_update_date": "2022-05-23T21:15:46.392Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "MRKT",
+    "organization": "0c759f35-017f-478e-9743-c80f15375a7f",
+    "state": "init_sale",
+    "description": "MRKT is back at the beach!\nNa een paar jaar afwezigheid zijn we terug met een van onze gezelligste dagen van het zomerseizoen 🔥\n\n𝗪𝗮𝘁 𝗶𝘀 𝗲𝗿 𝗮𝗹𝗹𝗲𝗺𝗮𝗮𝗹 𝘁𝗲 𝗱𝗼𝗲𝗻 𝘁𝗶𝗷𝗱𝗲𝗻𝘀 𝗼𝗻𝘇𝗲 𝘀𝘁𝗿𝗮𝗻𝗱𝗺𝗮𝗿𝗸𝘁??\nJe vindt er de mooiste fashion, interieur, kunst, workshops, een tattoo artist & schmink.\nMaar ook food, drinks en van alles ertussenin! Kortom, meer dan genoeg te doen om een dagje op Woodstock'69 door te brengen!\nHeb jij een tof merk / een leuk idee of ben je juist heel erg sustainable met jou bedrijf? Dan ben jij een aanwinst op ons al goed gevulde MRKT-programma!\nHeb je interesse? Mail ons dan snel op:\n𝗺𝗿𝗸𝘁@𝘄𝗼𝗼𝗱𝘀𝘁𝗼𝗰𝗸𝟲𝟵.𝗻𝗹",
+    "image": "mrkt_image.jpg",
+    "url": "https://web.facebook.com/events/507887731063781/?_rdc=1&_rdr",
+    "is_resellable": true,
+    "tickets_creation_type": "beforehande",
+    "maximum_tickets_numbers": 1000,
+    "location_id": "c0854ac7-bacb-49d0-9eef-8d0e07222346",
+    "event_date": "2022-07-31T15:00:32Z",
+    "start_date": "2022-04-01T14:00:49Z",
+    "end_date": "2022-07-30T00:00:32Z",
+    "is_sold_out": false,
+    "already_booked_num": 280
+  }
+},
+{
+  "model": "ticketing.event",
+  "pk": "7420f68b-3c5b-4c4b-b117-7efc3a50abe0",
+  "fields": {
+    "create_date": "2022-05-23T14:57:51.645Z",
+    "last_update_date": "2022-05-23T21:15:21.890Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "Festimi | Woodstock 2022",
+    "organization": "0c759f35-017f-478e-9743-c80f15375a7f",
+    "state": "init_sale",
+    "description": "Eén van de highlights van ons zomerseizoen: onze strand affaire met Woodstock 69'!\nOp zaterdag 30 juli keren we hier terug met een artiest die al meerdere jaren hoog op onze wishlist stond. Oftewel Shanti Celeste! Samen met haar hebben we een line up samengesteld die perfect past bij deze ziltige setting.\n𝐋𝐈𝐍𝐄 𝐔𝐏 🌱\nKarima F\nNèna\nOK Williams\nShanti Celeste",
+    "image": "festime_image.jpg",
+    "url": "https://web.facebook.com/events/564923328487045?_rdc=1&_rdr",
+    "is_resellable": true,
+    "tickets_creation_type": "beforehande",
+    "maximum_tickets_numbers": 1000,
+    "location_id": "c0854ac7-bacb-49d0-9eef-8d0e07222346",
+    "event_date": "2022-07-30T18:00:45Z",
+    "start_date": "2022-04-01T10:00:49Z",
+    "end_date": "2022-07-29T00:00:00Z",
+    "is_sold_out": false,
+    "already_booked_num": 730
+  }
+},
+{
+  "model": "ticketing.event",
+  "pk": "7420f68b-3c5b-4c4b-b117-7f54298496c5",
+  "fields": {
+    "create_date": "2022-05-23T14:57:51.645Z",
+    "last_update_date": "2022-05-23T21:15:21.890Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "BRAD PAISLEY",
+    "organization": "0c759f35-017f-478e-9743-c80f15375a7f",
+    "state": "init_sale",
+    "description": "The American singer, songwriter and guitarist Brad Paisley returns to 013! The country artist is perhaps the most prominent figure in his genre, since the 00's. His music pays tribute to his musical ancestors, but he knows how to impressively translate his songs into the here and now. During his career of over 20 years, the country superstar has won numerous awards and nominations, all due to his incredibly extensive discography of no less than twelve albums. Not to forget the sales figures that run into the millions and the bizarre high number of streams that keep coming in. We were honored that Paisley gave his first show ever on Dutch soil with us. That show sold in a curse and a sigh. Tonight he will return in 013 for his second Dutch show. Cowboy hats allowed.",
+    "image": "brad_pasley_imag.jpg",
+    "url": "https://www.013.nl/programma/6853/brad-paisley",
+    "is_resellable": true,
+    "tickets_creation_type": "beforehande",
+    "maximum_tickets_numbers": 1000,
+    "location_id": "c0854ac7-bacb-49d0-9eef-7e3a8144afef",
+    "event_date": "2022-07-19T18:00:45Z",
+    "start_date": "2022-07-01T10:00:49Z",
+    "end_date": "2022-07-18T00:00:00Z",
+    "is_sold_out": false,
+    "already_booked_num": 720
+  }
+},
+{
+  "model": "ticketing.transaction",
+  "pk": "b61e2905-e375-470f-981a-053974441a7c",
+  "fields": {
+    "create_date": "2022-05-23T15:07:55.275Z",
+    "last_update_date": "2022-05-23T15:07:55.275Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "B26FBA2EC7E74E3A",
+    "ticket_id": "57c08bc1-83c5-435b-b21d-52e72ca69dea",
+    "amount": 300.0,
+    "seller_id": "a4e7374f-10f6-44b5-9ee9-a1439a4df44e",
+    "buyer_id": "a4e7144f-10f6-44b5-9ee9-a7159a4df44e",
+    "date": "2022-03-02T15:06:24Z"
+  }
+},
+{
+  "model": "ticketing.transaction",
+  "pk": "41e9453f-2ab7-423e-a4c9-14be854a610f",
+  "fields": {
+    "create_date": "2022-05-23T15:07:55.275Z",
+    "last_update_date": "2022-05-23T15:07:55.275Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "F46F1A2A076B4D3C",
+    "ticket_id": "0cb149cd-fc70-4660-a363-de812b47e205",
+    "amount": 120.0,
+    "seller_id": null,
+    "buyer_id": "a4e7374f-10f6-44b5-9ee9-a1439a4df44e",
+    "date": "2022-05-30T15:06:24Z"
+  }
+},
+{
+  "model": "ticketing.transaction",
+  "pk": "24dd7b7f-59c5-43a3-8dea-b566a1a641a3",
+  "fields": {
+    "create_date": "2022-05-23T15:07:55.275Z",
+    "last_update_date": "2022-05-23T15:07:55.275Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "CCCADE6106EA4C55",
+    "ticket_id": "5ac15c4e-5fbe-4ce6-af5e-0b2cdb331b26",
+    "amount": 200.0,
+    "seller_id": null,
+    "buyer_id": "a4e7144f-10f6-44b5-9ee9-a7159a4df44e",
+    "date": "2022-03-02T15:06:24Z"
+  }
+},
+{
+  "model": "ticketing.transaction",
+  "pk": "d2a67aa3-8b99-4468-a418-bc4aa3a830d0",
+  "fields": {
+    "create_date": "2022-05-01T15:07:55.275Z",
+    "last_update_date": "2022-05-23T15:07:55.275Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "9EC36B5807DC49F4",
+    "ticket_id": "a1453dcd-7b92-4f61-b97a-30b041b366c8",
+    "amount": 230.0,
+    "seller_id": "a4e7144f-10f6-44b5-9ee9-a7159a4df44e",
+    "buyer_id": "a4e7374f-10f6-44b5-9ee9-a1439a4df44e",
+    "date": "2022-04-10T15:06:24Z"
+  }
+},
+{
+  "model": "ticketing.transaction",
+  "pk": "117ed70d-dd23-471b-a479-deb49ec6b29a",
+  "fields": {
+    "create_date": "2022-05-01T15:07:55.275Z",
+    "last_update_date": "2022-05-23T15:07:55.275Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "3AFC6BEFA6B248E2",
+    "ticket_id": "a1453dcd-7b92-4f61-b97a-30b041b366c8",
+    "amount": 200.0,
+    "seller_id": null,
+    "buyer_id": "a4e7144f-10f6-44b5-9ee9-a7159a4df44e",
+    "date": "2022-03-02T14:06:24Z"
+  }
+},
+{
+  "model": "ticketing.transaction",
+  "pk": "4723468b-4209-4cc0-91b3-5e6c97412a93",
+  "fields": {
+    "create_date": "2022-05-01T15:07:55.275Z",
+    "last_update_date": "2022-05-23T15:07:55.275Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "name": "3F1E20E53DA54B76",
+    "ticket_id": "1d7540ff-1982-40ab-ba98-c774d963d7f1",
+    "amount": 200.0,
+    "seller_id": null,
+    "buyer_id": "a4e7144f-10f6-44b5-9ee9-a7159a4df44e",
+    "date": "2022-05-14T15:06:24Z"
+  }
+}
+]
