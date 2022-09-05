@@ -30,5 +30,5 @@ for file_info in demo_content:
 
 	binary_image = download_response.content
 	file_absulote_path = absoulte_download_path + '/' + file_name
-	with open(file_absulote_path, 'w') as image_file:
+	with open(file_absulote_path, 'wb') as image_file:
 		image_file.write(binary_image)
