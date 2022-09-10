@@ -18,6 +18,7 @@ def fetch_images_from_repo():
 		image_name = image_info.get("name", "no-name")
 		image_url = image_info.get("download_url", None)
 		images_list.append((image_name, image_url))
+	return images_list
 images_list = fetch_images_from_repo()
 
 
