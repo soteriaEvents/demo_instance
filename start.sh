@@ -30,6 +30,7 @@ python /tmp/load_images.py
 echo "images fetched & uploaded"
 
 
+mkdir -p ~/crontab
 cd ~/crontab
 date >> reset_database_log.txt
 echo "updated ~/crontab/reset_database_log.txt"
