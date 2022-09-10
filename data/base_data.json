@@ -87,6 +87,35 @@
   }
 },
 {
+  "model": "base.user",
+  "pk": "c8b1f5f4-57b2-44c8-a722-a45cee1a6570",
+  "fields": {
+    "password": "pbkdf2_sha256$260000$HXsG56X7ovWyx8JaOwBO2m$1LoEIFA7ZAoZXiSPLymVSPoMy7n74kzKKkpUxonBcI8=",
+    "is_superuser": true,
+    "create_date": "2022-06-25T17:20:40.094Z",
+    "last_update_date": "2022-06-25T17:24:34.079Z",
+    "create_uid": null,
+    "last_update_uid": null,
+    "first_name": "De",
+    "last_name": "Ijsselstroom",
+    "email": "de.ijsselstroom@email.com",
+    "is_active": true,
+    "date_joined": "2022-06-25T17:20:40.094Z",
+    "image": "default_image.png",
+    "gender": "male",
+    "phone": null,
+    "country_id": null,
+    "region_id": null,
+    "sub_region_id": null,
+    "city_id": null,
+    "last_login": "2022-06-25T17:24:34.078Z",
+    "birth_date": null,
+    "is_event_coordinator": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
   "model": "base.country",
   "pk": "8db75aef-9bbc-4547-a273-5394c6395363",
   "fields": {
