@@ -26,7 +26,7 @@ echo "CLOUDINARY_URL=${CLOUDINARY_URL}" > .env
 
 
 # start fetching images
-python /tmp/load_images.py
+python load_images.py
 echo "images fetched & uploaded"
 
 
