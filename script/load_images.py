@@ -1,35 +1,27 @@
-import os
-import sys
 import requests
+import cloudinary
+import cloudinary.uploader
 
-try:
-	input_download_path = sys.argv[1]
-except IndexError:
-	raise IndexError("You need to provide an argument to download the image into")
+from dotenv import load_dotenv
+load_dotenv()
 
-if not os.path.exists(input_download_path):
-	raise ValueError(f"the given path {input_download_path} is not found")
+config = cloudinary.config(secure=True)
 
-absoulte_download_path = os.path.abspath(input_download_path)
+def fetch_images_from_repo():
+	imges_reponse = requests.get("https://api.github.com/repos/soteriaEvents/demo_instance/contents/static/images")
+	if imges_reponse.status_code != 200:
+		raise requests.exceptions.HTTPError(f"Reponse was not successful, content is =>\n{imges_reponse.content}")
 
-demo_reponse = requests.get("https://api.github.com/repos/soteriaEvents/demo_instance/contents/static/images")
-if demo_reponse.status_code != 200:
-	raise requests.exceptions.HTTPError(f"Reponse was not successful, content is =>\n{demo_reponse.content}")
+	images_list = []
+	images_json = imges_reponse.json()
+	for image_info in images_json:
+		image_name = image_info.get("name", "no-name")
+		image_url = image_info.get("download_url", None)
+		images_list.append((image_name, image_url))
+images_list = fetch_images_from_repo()
 
-demo_content = demo_reponse.json()
-for file_info in demo_content:
-	file_name = file_info.get("name", "no-name")
-	file_url = file_info.get("download_url", None)
-	if not file_url:
-		print(f"file {file_name} doesn't have download URL")
-		continue
 
-	download_response = requests.get(file_url)
-	if download_response.status_code != 200:
-		print(f"something went wrong when fetching data for {file_name}\nurl: {file_url}\nresponse: {download_response.content}")
-
-	binary_image = download_response.content
-	file_absulote_path = absoulte_download_path + '/' + file_name
-	print("file_absulote_path => ", file_absulote_path)
-	with open(file_absulote_path, 'wb') as image_file:
-		image_file.write(binary_image)
+def upload_images(images_list):
+	for image_name, image_url in images_list:
+		cloudinary.uploader.upload(image_url, public_id=image_name, unique_filename = False, overwrite=True)
+upload_images(images_list)
