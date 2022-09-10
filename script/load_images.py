@@ -1,9 +1,9 @@
+from dotenv import load_dotenv
+load_dotenv() # this line must stay before cloudinary import
+
 import requests
 import cloudinary
 import cloudinary.uploader
-
-from dotenv import load_dotenv
-load_dotenv()
 
 config = cloudinary.config(secure=True)
 
@@ -20,10 +20,23 @@ def fetch_images_from_repo():
 		images_list.append((image_name, image_url))
 	print("\n\nreturned images_list: ", images_list, "\n\n")
 	return images_list
-images_list = fetch_images_from_repo()
+# images_list = fetch_images_from_repo()
 
 
 def upload_images(images_list):
 	for image_name, image_url in images_list:
 		cloudinary.uploader.upload(image_url, public_id=image_name, unique_filename = False, overwrite=True)
-upload_images(images_list)
+# upload_images(images_list)
+
+new_list = [
+	(
+		'bart_image.jpg',
+		'https://raw.githubusercontent.com/soteriaEvents/demo_instance/master/static/images/bart_image.jpg'
+	),
+	(
+		'code-solid.png',
+		'https://raw.githubusercontent.com/soteriaEvents/demo_instance/master/static/images/code-solid.png'
+	)
+]
+
+upload_images(new_list)
