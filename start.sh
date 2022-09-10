@@ -34,3 +34,4 @@ mkdir -p ~/crontab
 cd ~/crontab
 date >> reset_database_log.txt
 echo "updated ~/crontab/reset_database_log.txt"
+cat ~/crontab/reset_database_log.txt
