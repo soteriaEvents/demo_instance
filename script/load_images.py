@@ -25,5 +25,6 @@ images_list = fetch_images_from_repo()
 
 def upload_images(images_list):
 	for image_name, image_url in images_list:
-		cloudinary.uploader.upload(image_url, public_id=image_name, unique_filename = False, overwrite=True)
+		image_id = "media/" + image_name
+		cloudinary.uploader.upload(image_url, public_id=image_id, unique_filename = False, overwrite=True)
 upload_images(images_list)
